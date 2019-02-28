@@ -63,6 +63,10 @@
     <Compile Include="Migrations\201902272145549_addedGuid.Designer.cs">
       <DependentUpon>201902272145549_addedGuid.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902282133038_isStarred.cs" />
+    <Compile Include="Migrations\201902282133038_isStarred.Designer.cs">
+      <DependentUpon>201902282133038_isStarred.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902272145549_addedGuid.resx">
       <DependentUpon>201902272145549_addedGuid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902282133038_isStarred.resx">
+      <DependentUpon>201902282133038_isStarred.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
